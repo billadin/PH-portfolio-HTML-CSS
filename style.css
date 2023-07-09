@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    background:#FFF8F3;;
+}
+
+nav {
+    display: flex;
+}
