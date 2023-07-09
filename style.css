@@ -1,7 +1,9 @@
-/* * {
+body {
     padding: 0;
     margin: 0;
-} */
+    font-family: 'Open Sans', sans-serif;
+    color:#474747
+}
 
 
 .color-primary {
@@ -73,6 +75,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 80px;
 }
 
 #hero-greeting {
@@ -100,4 +103,64 @@ nav ul li a:hover{
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
+}
+
+.download-cv-btn {
+    margin-right: 25px;
+}
+
+
+#about-me {
+    margin: 130px 230px 130px 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-title {
+    margin-top: 130px;
+    margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-me-desc {
+    width: 827px;
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-me-info > li {
+    list-style: none;
+}
+
+.about-me-info {
+    width: 827px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.about-me-info p {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
